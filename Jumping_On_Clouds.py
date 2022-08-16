@@ -18,20 +18,18 @@ def jumpingOnClouds(c):
     n = len(c)
     jump = 0
     index = 0
-    pos = c[index]
     while (index < n - 2):
         if (c[index + 2] == 0 ):
             index = index + 2
-            pos = c[index]
             jump = jump + 1
         elif (c[index + 1] == 0):
             index = index + 1
-            pos = c[index]
             jump = jump + 1
         print(index)
     if (index < n - 1):
         jump = jump + 1 
     return jump
+
 
 if __name__ == '__main__':
     fptr = open(os.environ['OUTPUT_PATH'], 'w')
