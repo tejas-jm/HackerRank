@@ -26,19 +26,19 @@ class RectangleArea:public Rectangle {
 
 int main()
 {
-    /*
-     * Declare a RectangleArea object
-     */
+    
+     //Declaring a RectangleArea object
+     
     RectangleArea r_area;
     
-    /*
-     * Read the width and height
-     */
+   
+    // Reading the width and height
+     
     r_area.read_input();
     
-    /*
-     * Print the width and height
-     */
+    
+     //Printing the width and height
+     
     r_area.Rectangle::display();
     
     /*
